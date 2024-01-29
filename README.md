@@ -1,2 +1,2 @@
 # JavascriptActivities
-I will be solveing 1 small Javascript functionality based problem in this repo
+I will be solving 1 small Javascript functionality based problem in this repo
