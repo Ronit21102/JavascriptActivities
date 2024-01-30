@@ -8,13 +8,18 @@ function addTask(){
     
 
 const text = taskInput.value;
- 
+
+// added alert function
+if(text ===''){
+    alert("You must write Something")
+}
+else{
 taskInput.value=''
 
 const newElement = document.createElement('div')
 newElement.innerHTML =`<li class="list-group-item mb-3">${text}</li>`
 taskList.appendChild(newElement)
-
+}
  
 }
 
