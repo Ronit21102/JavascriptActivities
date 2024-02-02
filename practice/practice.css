@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h1, h2 {
+    position: relative;
+    color: #333;
+  }
+  
+  h1::before, h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10px; /* Adjust the width as needed */
+    background-color: orange;
+    z-index: -1;
+  }
+  
+  footer {
+    text-align: center;
+    font-style: italic;
+    background-color: #ddd;
+  }
+  
+  header, section, article, aside, footer {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+  }
+  
